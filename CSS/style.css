@@ -2,3 +2,12 @@
 body {
 	font-family: Tahoma, 'Trebuchet MS', sans-serif;
 }
+
+#spells {
+	font-family: Georgia, Garamond, serif;
+	background-color: #FFFFF4;
+}
+
+h2, h3, h4, h5, h6 {
+	margin-top: 10px;
+}

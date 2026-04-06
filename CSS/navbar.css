@@ -1,8 +1,9 @@
-#main {
-	margin-top: 50px;
+body {
+	margin-top: 60px;
 }
 
 #nav1 {
+	display: flex;
 	overflow: scroll;
 	background-color: #000000;
 	position: absolute;
@@ -10,12 +11,15 @@
 	left: 0;
 	height: 50px;
 	width: 100%;
-	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: Tahoma, 'Trebuchet MS', sans-serif;
 }
 
-#nav1 p {
+#nav1 a {
 	color: red;
 	margin-left: 2px;
 	margin-right: 2px;
 	font-weight: bold;
+	text-decoration: none;
 }
